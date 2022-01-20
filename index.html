@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="home of sea food" content="this website is about sea foods">
+  <meta name="foods" content="lobbster,crabs,crayfish,snail,">
+  <meta name="author" content="hollamik"
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="script.js"></script>
+</head>
+
+<!---this is the main body of the site-->
+<body class="dark-mode">
+
+<!--the navigation bar start here-->
+  <div class="topnav" id="myTopnav">
+    <!--this is the logo-->
+    <div class="topnav-logo"><a href="#logo" class="active">SeeFood.</a></div>
+    <div class="topnav-link">
+    <a href="#home"><i class="fa fa-home "></i>Home</a>
+    <a href="#about">About Us</a>
+    <div class="dropdown">
+      <button class="dropbtn">More
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#expert">Our Expert</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonial">Testimonials</a>
+      </div>
+    </div>
+    <a href="#contact">Contact</a>
+    <div class="search"><input type="text" placeholder="Search.."></div>
+    <div class="dark-modebtn"><button onclick="myFunction()">mode </button></div>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+</div>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="image/images/citrus-6928239__340.webp" style="width:100%">
+    <div class="text">Underwater Mountain</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="image/images/cucumber-plant-6614241__480.jpg" style="width:100%">
+    <div class="text">African Rainforest</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="image/images/hamburger-5630646__480.jpg" style="width:100%">
+    <div class="text">Nature Beauty</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="image/images/river-bank.jpg" style="width:100%">
+    <div class="text">Nature Beauty</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+
+</div>
+<!--this is  about section-->
+<div class="row">
+  <div class="column">
+    <h2><span>A</span>bout Us</h2>
+    <p> Cum deserunt earum deleniti eveniet necessitatibus id repellat facilis qui!
+       Lorem ipsum dolor sit amet consectetur adipisicing elitCum deserunt earum
+       deleniti eveniet necessitatibus id repellat facilis qui!
+       Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet cons
+       ectetur adipisicing elitCorporis illum quasi, temporibus error quas dolorem
+       que eaque ullam.Exercitationem necessitatibus quos aliquid quaerat magni,
+       facere, tenetur praesentium non, odit reiciendis perspiciatis.. </p>
+  </div>
+  <div class="column" ">
+    <img src="image/images/food101.jpg">
+  </div>
+</div>
+<!-- The Expert section-->
+<div class="expert-wrapper">
+<div class=" expert-text">
+<h2>Our <SPan>E</SPan>xpert</h2>
+<p>We  select the best professional to handle all our meals</p>
+</div>
+<div class="expert-box">
+<div class="expert-container">
+  <img src="image/images/cheff1.jfif" alt="Avatar" >
+  <p>Lorem ipsum dolor sit amet  busy consectetur .</p>
+  <h4>Company Cheff-------<em>Britney Poe</em></h4>
+</div>
+<div class="expert-container">
+  <img src="image/images/cheff2.jfif" alt="Avatar" >
+  <p>Lorem ipsum dolor sit aadipisicing elit.Modi reiciend</p>
+  <h4>Company Cheff-------<em>Rebeeca Williams</em></h4>
+</div>
+<div class="expert-container">
+  <img src="image/images/cheff3.jfif" alt="Avatar" >
+  <p>Lorem ipsum dolor sit amet modupeteminikanshosho.</p>
+  <h4>Company Cheff-------<em>Cyntia Cox</em></h4>
+  </div>
+<div class="expert-container">
+  <img src="image/images/cheff4.jfif" alt="Avatar" >
+  <p>Lorem ipsum dolor sit amet elit.Modi reiciend</p>
+  <h4>Company Cheff-------<em>Chris Fox</em></h4>
+  </div>
+</div>
+</div>
+<!--the gallery section-->
+<div class="gallery">
+  <div class="header">
+    <h2><span>G</span>allery</h2>
+    <p>Leque rerum magnamDoloribus itaque a modi doloremque fugiat? .</p>
+  </div>
+
+  <!-- Photo Grid -->
+  <div class="gallery-row">
+    <div class="column">
+      <img src="image/images/salad-6900127__480.webp">
+      <img src="image/images/seafood 101.jpg">
+    </div>
+    <div class="column">
+      <img src="image/images/seafoods 102.jfif">
+      <img src="image/images/hamburger-5630646__480.jpg">
+    </div>
+    <div class="column">
+      <img src="image/images/italian-cuisine-6903773__480.jpg">
+      <img src="image/images/salad-6900127__480.webp">
+    </div>
+    <div class="column">
+      <img src="image/images/img_lights_wide.jpg">
+      <img src="image/images/seafoods 102.jfif">
+    </div>
+  </div>
+  </div>
+<!-- The Testimonials section-->
+<div class="testimonial">
+<div class="testimonial-text">
+  <h2> <span>T</span>estimonials</h2>
+  <p>What they say about our meals</p>
+  </div>
+  <div class="testimonial-wrapper">
+  <div class="testimonial-container">
+    <img src="image/images/testimonial8.jfif" alt="Avatar">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reiciend
+      blanditiis vitae voluptatem distinctio nam praesentium  Lorem
+       ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quidem?
+        Distinctio rem suscipit provident mollitia nemo inventore
+      quidem minus laudantium perferendis modi voluptas saepe porro id, ipsum est neque officia?</p><br>
+    <h4>----<em>Tonny Pawpaw</em></h4>
+  </div>
+
+  <div class="testimonial-container">
+    <img src="image/images/testimonial10.jfif" alt="Avatar">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reiciend
+      blanditiis vitae voluptatem distinctio nam praesentium  Lorem,
+       ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quidem?
+        Distinctio rem suscipit provident mollitia nemo inventore
+      quidem minus laudantium perferendis modi voluptas saepe porro id, ipsum est neque officia?</p><br>
+    <h4>----<em>Rebeeca Williams</em></h4>
+  </div>
+
+  <div class="testimonial-container">
+    <img src="image/images/testimonial9.jfif" alt="Avatar">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reiciend
+      blanditiis vitae voluptatem distinctio nam praesentium  Lorem,
+       ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quidem?
+        Distinctio rem suscipit provident mollitia nemo inventore
+      quidem minus laudantium perferendis modi voluptas saepe porro id, ipsum est neque officia?</p><br>
+    <h4>-----<em>Brain Wolf</em></h4>
+  </div>
+  </div>
+  <div class="container">
+    <div class="statistic">
+    <h5><span>G</span>eneral  Stats</h5>
+    </div>
+    <p>New Visitors</p>
+    <div class="grey-row">
+      <div class="green-row" style="width:25%">25%</div>
+    </div>
+
+    <p>Numbers of orders</p>
+    <div class="grey-row">
+      <div class="orange-row" style="width:50%">50%</div>
+    </div>
+
+    <p>satisfy customers</p>
+    <div class="grey-row">
+      <div class="red-row" style="width:75%">75%</div>
+    </div>
+  </div>
+<!--this is the contact section-->
+<div class="contact-container">
+  <div class="contact-info">
+  <h2>Contact</h2>
+  <p>If you have any questions, do not hesitate to ask them.</p>
+  <div>
+  <i class="fa fa-map-marker w3-text-red" style="width:30px"></i> Lagos, Nigeria<br>
+  <i class="fa fa-phone w3-text-red" style="width:30px"></i> Phone: +2348062973305<br>
+  <i class="fa fa-envelope w3-text-red" style="width:30px"> </i> Email: awoseemonike@gmail.com
+  <h5> www.seefood.org</h5>
+  </div>
+  </div>
+  <div class="contact-message">
+  <form action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Nigeria</option>
+      <option value="canada">South African</option>
+      <option value="usa">USA</option>
+    </select>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:50px"></textarea>
+    <input type="submit" class="submit" value="Submit">
+  </form>
+  </div>
+</div>
+<!--the footer section-->
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+ <div class="footer-heading"><h4>Follow Us</h4></div>
+ <div class="footer-icon">
+  <a class="#" href="javascript:void(0)" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="#" href="javascript:void(0)" title="Twitter"><i class="fa fa-twitter"></i></a>
+  <a class="#" href="javascript:void(0)" title="Google +"><i class="fa fa-google-plus"></i></a>
+  <a class="#" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram"></i></a>
+  <a class="#" href="javascript:void(0)" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+</div>
+
+ <div class="author"><p>Powered by:Olunike</p></div>
+
+  <div class="back-to-home-link">
+     <a  href="#home"><i class="fa fa-chevron-circle-up"></i></a>
+  </div>
+</footer>
+</body>
+</html>
